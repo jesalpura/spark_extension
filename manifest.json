@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Daily Spark - Uplifting Messages",
+  "version": "1.0.0",
+  "description": "Get an instant burst of positivity, motivation, and uplifting thoughts with every click.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_title": "Daily Spark - Click for a good message",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "permissions": [
+    "storage",
+    "notifications"
+  ]
+}
